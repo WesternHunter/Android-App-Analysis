@@ -1,0 +1,618 @@
+id,关键词大类,关键词所在类,关键词类型,关键词名称,返回值类型,参数列表,链接
+1.0011,KeyStore_provider_feature,KeyStore$Builder,constructor,Builder,,,https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0021,KeyStore_provider_feature,KeyStore$Builder,nonstatic_method,getKeyStore,KeyStore,,https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0031,KeyStore_provider_feature,KeyStore$Builder,nonstatic_method,getProtectionParameter,KeyStore.ProtectionParameter,String alias,https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0041,KeyStore_provider_feature,KeyStore$Builder,static_method,newInstance,KeyStore.Builder,"String type,Provider provider,KeyStore$ProtectionParameter protection",https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0051,KeyStore_provider_feature,KeyStore$Builder,static_method,newInstance,KeyStore.Builder,"File file,KeyStore$ProtectionParameter protection",https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0061,KeyStore_provider_feature,KeyStore$Builder,static_method,newInstance,KeyStore.Builder,"String type,Provider provider,File file,KeyStore$ProtectionParameter protection",https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0071,KeyStore_provider_feature,KeyStore$Builder,static_method,newInstance,KeyStore.Builder,"KeyStore keyStore,KeyStore$ProtectionParameter protectionParameter",https://developer.android.com/reference/java/security/KeyStore.Builder
+1.0081,KeyStore_provider_feature,KeyStore$CallbackHandlerProtection,constructor,CallbackHandlerProtection,,CallbackHandler handler,https://developer.android.com/reference/java/security/KeyStore.CallbackHandlerProtection
+1.0091,KeyStore_provider_feature,KeyStore$CallbackHandlerProtection,nonstatic_method,getCallbackHandler,CallbackHandler,,https://developer.android.com/reference/java/security/KeyStore.CallbackHandlerProtection
+1.0101,KeyStore_provider_feature,KeyStore$Entry,nonstatic_method,getAttributes,Set<KeyStore.Entry.Attribute>,,https://developer.android.com/reference/java/security/KeyStore.Entry
+1.0111,KeyStore_provider_feature,KeyStore$Entry$Attribute,nonstatic_method,getName,String,,https://developer.android.com/reference/java/security/KeyStore.Entry.Attribute
+1.0121,KeyStore_provider_feature,KeyStore$Entry$Attribute,nonstatic_method,getValue,String,,https://developer.android.com/reference/java/security/KeyStore.Entry.Attribute
+1.0131,KeyStore_provider_feature,KeyStore$LoadStoreParameter,nonstatic_method,getProtectionParameter,KeyStore.ProtectionParameter,,https://developer.android.com/reference/java/security/KeyStore.LoadStoreParameter
+1.0141,KeyStore_provider_feature,KeyStore$PasswordProtection,constructor,PasswordProtection,,char[] password,https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0151,KeyStore_provider_feature,KeyStore$PasswordProtection,constructor,PasswordProtection,,"char[] password,String protectionAlgorithm,AlgorithmParameterSpec protectionParameters",https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0161,KeyStore_provider_feature,KeyStore$PasswordProtection,nonstatic_method,destroy,void,,https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0171,KeyStore_provider_feature,KeyStore$PasswordProtection,nonstatic_method,getPassword,void,,https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0181,KeyStore_provider_feature,KeyStore$PasswordProtection,nonstatic_method,getProtectionAlgorithm,String,,https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0191,KeyStore_provider_feature,KeyStore$PasswordProtection,nonstatic_method,getProtectionParameters,AlgorithmParameterSpec,,https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0201,KeyStore_provider_feature,KeyStore$PasswordProtection,nonstatic_method,isDestroyed,boolean,,https://developer.android.com/reference/java/security/KeyStore.PasswordProtection
+1.0211,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,constructor,PrivateKeyEntry,,"PrivateKey privateKey,Certificate[] chain",https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0221,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,constructor,PrivateKeyEntry,,"PrivateKey privateKey,Certificate[] chain,Set<KeyStore$Entry$Attribute> attributes",https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0231,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,nonstatic_method,getAttributes,Set<KeyStore.Entry.Attribute>,,https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0241,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,nonstatic_method,getCertificate,Certificate,,https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0251,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,nonstatic_method,getCertificateChain,Certificate[],,https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0261,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,nonstatic_method,getPrivateKey,PrivateKey,,https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0271,KeyStore_provider_feature,KeyStore$PrivateKeyEntry,nonstatic_method,toString,String,,https://developer.android.com/reference/java/security/KeyStore.PrivateKeyEntry
+1.0281,KeyStore_provider_feature,KeyStore$SecretKeyEntry,constructor,SecretKeyEntry,,SecretKey secretKey,https://developer.android.com/reference/java/security/KeyStore.SecretKeyEntry
+1.0291,KeyStore_provider_feature,KeyStore$SecretKeyEntry,constructor,SecretKeyEntry,,"SecretKey secretKey,Set<KeyStore$Entry$Attribute> attributes",https://developer.android.com/reference/java/security/KeyStore.SecretKeyEntry
+1.0301,KeyStore_provider_feature,KeyStore$SecretKeyEntry,nonstatic_method,getAttributes,Set<KeyStore.Entry.Attribute>,,https://developer.android.com/reference/java/security/KeyStore.SecretKeyEntry
+1.0311,KeyStore_provider_feature,KeyStore$SecretKeyEntry,nonstatic_method,getSecretKey,SecretKey,,https://developer.android.com/reference/java/security/KeyStore.SecretKeyEntry
+1.0321,KeyStore_provider_feature,KeyStore$SecretKeyEntry,nonstatic_method,toString,String,,https://developer.android.com/reference/java/security/KeyStore.SecretKeyEntry
+1.0331,KeyStore_provider_feature,KeyStore$TrustedCertificateEntry,constructor,TrustedCertificateEntry,,Certificate trustedCert,https://developer.android.com/reference/java/security/KeyStore.TrustedCertificateEntry
+1.0341,KeyStore_provider_feature,KeyStore$TrustedCertificateEntry,constructor,TrustedCertificateEntry,,"Certificate trustedCert,Set<KeyStore$Entry$Attribute> attributes",https://developer.android.com/reference/java/security/KeyStore.TrustedCertificateEntry
+1.0351,KeyStore_provider_feature,KeyStore$TrustedCertificateEntry,nonstatic_method,getAttributes,Set<KeyStore.Entry.Attribute>,,https://developer.android.com/reference/java/security/KeyStore.TrustedCertificateEntry
+1.0361,KeyStore_provider_feature,KeyStore$TrustedCertificateEntry,nonstatic_method,getTrustedCertificate,Certificate,,https://developer.android.com/reference/java/security/KeyStore.TrustedCertificateEntry
+1.0371,KeyStore_provider_feature,KeyStore$TrustedCertificateEntry,nonstatic_method,toString,String,,https://developer.android.com/reference/java/security/KeyStore.TrustedCertificateEntry
+1.0381,KeyStore_provider_feature,KeyStore,constructor,KeyStore,,"KeyStoreSpi keyStoreSpi,Provider provider,String type",https://developer.android.com/reference/java/security/KeyStore
+1.0391,KeyStore_provider_feature,KeyStore,static_method,getDefaultType,String,,https://developer.android.com/reference/java/security/KeyStore
+1.0401,KeyStore_provider_feature,KeyStore,static_method,getInstance,KeyStore,String type,https://developer.android.com/reference/java/security/KeyStore
+1.0411,KeyStore_provider_feature,KeyStore,static_method,getInstance,KeyStore,"File file,char[] password",https://developer.android.com/reference/java/security/KeyStore
+1.0421,KeyStore_provider_feature,KeyStore,static_method,getInstance,KeyStore,"String type,String provider",https://developer.android.com/reference/java/security/KeyStore
+1.0431,KeyStore_provider_feature,KeyStore,static_method,getInstance,KeyStore,"String type,Provider provider",https://developer.android.com/reference/java/security/KeyStore
+1.0441,KeyStore_provider_feature,KeyStore,static_method,getInstance,KeyStore,"File file,KeyStore$LoadStoreParameter param",https://developer.android.com/reference/java/security/KeyStore
+1.0451,KeyStore_provider_feature,KeyStore,nonstatic_method,aliases,Enumeration<String>,,https://developer.android.com/reference/java/security/KeyStore
+1.0461,KeyStore_provider_feature,KeyStore,nonstatic_method,containsAlias,boolean,String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0471,KeyStore_provider_feature,KeyStore,nonstatic_method,deleteEntry,void,String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0481,KeyStore_provider_feature,KeyStore,nonstatic_method,entryInstanceOf,boolean,"String alias,Class<? extends KeyStore$Entry> entryClass",https://developer.android.com/reference/java/security/KeyStore
+1.0491,KeyStore_provider_feature,KeyStore,nonstatic_method,getCertificate,Certificate,String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0501,KeyStore_provider_feature,KeyStore,nonstatic_method,getCertificateAlias,String,Certificate cert,https://developer.android.com/reference/java/security/KeyStore
+1.0511,KeyStore_provider_feature,KeyStore,nonstatic_method,getCertificateChain,Certificate[],String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0521,KeyStore_provider_feature,KeyStore,nonstatic_method,getCreationDate,Date,String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0531,KeyStore_provider_feature,KeyStore,nonstatic_method,getEntry,KeyStore.Entry,"String alias,KeyStore$ProtectionParameter protParam",https://developer.android.com/reference/java/security/KeyStore
+1.0541,KeyStore_provider_feature,KeyStore,nonstatic_method,getKey,Key,"String alias,char[] password",https://developer.android.com/reference/java/security/KeyStore
+1.0551,KeyStore_provider_feature,KeyStore,nonstatic_method,getProvider,Provider,,https://developer.android.com/reference/java/security/KeyStore
+1.0561,KeyStore_provider_feature,KeyStore,nonstatic_method,getType,String,,https://developer.android.com/reference/java/security/KeyStore
+1.0571,KeyStore_provider_feature,KeyStore,nonstatic_method,isCertificateEntry,boolean,String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0581,KeyStore_provider_feature,KeyStore,nonstatic_method,isKeyEntry,boolean,String alias,https://developer.android.com/reference/java/security/KeyStore
+1.0591,KeyStore_provider_feature,KeyStore,nonstatic_method,load,void,KeyStore$LoadStoreParameter param,https://developer.android.com/reference/java/security/KeyStore
+1.0601,KeyStore_provider_feature,KeyStore,nonstatic_method,load,void,"InputStream stream,char[] password",https://developer.android.com/reference/java/security/KeyStore
+1.0611,KeyStore_provider_feature,KeyStore,nonstatic_method,setCertificateEntry,void,"String alias,Certificate cert",https://developer.android.com/reference/java/security/KeyStore
+1.0621,KeyStore_provider_feature,KeyStore,nonstatic_method,setEntry,void,"String alias,KeyStore$Entry entry,KeyStore$ProtectionParameter protParam",https://developer.android.com/reference/java/security/KeyStore
+1.0631,KeyStore_provider_feature,KeyStore,nonstatic_method,setKeyEntry,void,"String alias,Key key,char[] password,Certificate[] chain",https://developer.android.com/reference/java/security/KeyStore
+1.0641,KeyStore_provider_feature,KeyStore,nonstatic_method,setKeyEntry,void,"String alias,byte[] key,Certificate[] chain",https://developer.android.com/reference/java/security/KeyStore
+1.0651,KeyStore_provider_feature,KeyStore,nonstatic_method,size,int,,https://developer.android.com/reference/java/security/KeyStore
+1.0661,KeyStore_provider_feature,KeyStore,nonstatic_method,store,void,"OutputStream stream,char[] password",https://developer.android.com/reference/java/security/KeyStore
+1.0671,KeyStore_provider_feature,KeyStore,nonstatic_method,store,void,KeyStore$LoadStoreParameter param,https://developer.android.com/reference/java/security/KeyStore
+1.0681,KeyStore_provider_feature,KeyPairGenerator,constructor,KeyPairGenerator,,String algorithm,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0691,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,genKeyPair,KeyPair,,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0701,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,generateKeyPair,KeyPair,,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0711,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,getAlgorithm,String,,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0721,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,getProvider,Provider,,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0731,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,initialize,void,"AlgorithmParameterSpec params,SecureRandom random",https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0741,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,initialize,void,AlgorithmParameterSpec params,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0751,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,initialize,void,"int keysize,SecureRandom random",https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0761,KeyStore_provider_feature,KeyPairGenerator,nonstatic_method,initialize,void,int keysize,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0771,KeyStore_provider_feature,KeyPairGenerator,static_method,getInstance,KeyPairGenerator,String algorithm,https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0781,KeyStore_provider_feature,KeyPairGenerator,static_method,getInstance,KeyPairGenerator,"String algorithm,String provider",https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0791,KeyStore_provider_feature,KeyPairGenerator,static_method,getInstance,KeyPairGenerator,"String algorithm,Provider provider",https://developer.android.com/reference/java/security/KeyPairGenerator
+1.0801,KeyStore_provider_feature,KeyGenerator,constructor,KeyGenerator,,"KeyGeneratorSpi keyGenSpi,Provider provider,String algorithm",https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0811,KeyStore_provider_feature,KeyGenerator,nonstatic_method,generateKey,SecretKey,,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0821,KeyStore_provider_feature,KeyGenerator,nonstatic_method,getAlgorithm,String,,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0831,KeyStore_provider_feature,KeyGenerator,nonstatic_method,getProvider,Provider,,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0841,KeyStore_provider_feature,KeyGenerator,nonstatic_method,init,void,"AlgorithmParameterSpec params,SecureRandom random",https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0851,KeyStore_provider_feature,KeyGenerator,nonstatic_method,init,void,SecureRandom random,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0861,KeyStore_provider_feature,KeyGenerator,nonstatic_method,init,void,int keysize,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0871,KeyStore_provider_feature,KeyGenerator,nonstatic_method,init,void,"int keysize,SecureRandom random",https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0881,KeyStore_provider_feature,KeyGenerator,nonstatic_method,init,void,AlgorithmParameterSpec params,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0891,KeyStore_provider_feature,KeyGenerator,static_method,getInstance,KeyGenerator,String algorithm,https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0901,KeyStore_provider_feature,KeyGenerator,static_method,getInstance,KeyGenerator,"String algorithm,String provider",https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0911,KeyStore_provider_feature,KeyGenerator,static_method,getInstance,KeyGenerator,"String algorithm,Provider provider",https://developer.android.com/reference/javax/crypto/KeyGenerator
+1.0921,Security library,EncryptedFile,nonstatic_method,openFileInput,FileInputStream,,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile
+1.0931,Security library,EncryptedFile,nonstatic_method,openFileOutput,FileOutputStream,,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile
+1.0941,Security library,EncryptedFile$Builder,constructor,Builder,,"Context context,File file,MasterKey masterKey,EncryptedFile$FileEncryptionScheme fileEncryptionScheme",https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.Builder
+1.0951,Security library,EncryptedFile$Builder,constructor,Builder,,"File file,Context context,String masterKeyAlias,EncryptedFile$FileEncryptionScheme fileEncryptionScheme",https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.Builder
+1.0961,Security library,EncryptedFile$Builder,nonstatic_method,build,EncryptedFile,,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.Builder
+1.0971,Security library,EncryptedFile$Builder,nonstatic_method,setKeysetAlias,EncryptedFile.Builder,String keysetAlias,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.Builder
+1.0981,Security library,EncryptedFile$Builder,nonstatic_method,setKeysetPrefName,EncryptedFile.Builder,String keysetPrefName,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.Builder
+1.0991,Security library,EncryptedFile$FileEncryptionScheme,static_method,valueOf,EncryptedFile.FileEncryptionScheme,String name,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.FileEncryptionScheme
+1.1001,Security library,EncryptedFile$FileEncryptionScheme,static_method,values,EncryptedFile.FileEncryptionScheme[],,https://developer.android.com/reference/androidx/security/crypto/EncryptedFile.FileEncryptionScheme
+1.1011,Security library,EncryptedSharedPreferences$PrefKeyEncryptionScheme,static_method,valueOf,EncryptedSharedPreferences.PrefKeyEncryptionScheme,String name,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences.PrefKeyEncryptionScheme
+1.1021,Security library,EncryptedSharedPreferences$PrefKeyEncryptionScheme,static_method,values,EncryptedSharedPreferences.PrefKeyEncryptionScheme[],,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences.PrefKeyEncryptionScheme
+1.1031,Security library,EncryptedSharedPreferences$PrefValueEncryptionScheme,static_method,valueOf,EncryptedSharedPreferences.PrefValueEncryptionScheme,String name,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences.PrefValueEncryptionScheme
+1.1041,Security library,EncryptedSharedPreferences$PrefValueEncryptionScheme,static_method,values,EncryptedSharedPreferences.PrefValueEncryptionScheme[],,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences.PrefValueEncryptionScheme
+1.1051,Security library,EncryptedSharedPreferences,nonstatic_method,contains,String key,,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1061,Security library,EncryptedSharedPreferences,nonstatic_method,edit,SharedPreferences.Editor,,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1071,Security library,EncryptedSharedPreferences,nonstatic_method,getAll,"Map<String, Object>",,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1081,Security library,EncryptedSharedPreferences,nonstatic_method,getBoolean,boolean,"String key,boolean defValue",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1091,Security library,EncryptedSharedPreferences,nonstatic_method,getFloat,float,"String key,float defValue",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1101,Security library,EncryptedSharedPreferences,nonstatic_method,getInt,int,"String key,int defValue",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1111,Security library,EncryptedSharedPreferences,nonstatic_method,getLong,long,"String key,long defValue",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1121,Security library,EncryptedSharedPreferences,nonstatic_method,getString,String,"String key,String defValue",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1131,Security library,EncryptedSharedPreferences,nonstatic_method,getStringSet,Set<String>,"String key,Set<String> defValues",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1141,Security library,EncryptedSharedPreferences,nonstatic_method,registerOnSharedPreferenceChangeListener,void,,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1151,Security library,EncryptedSharedPreferences,nonstatic_method,unregisterOnSharedPreferenceChangeListener,void,,https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1161,Security library,EncryptedSharedPreferences,static_method,create,SharedPreferences,"Context context,String fileName,MasterKey masterKey,EncryptedSharedPreferences$PrefKeyEncryptionScheme prefKeyEncryptionScheme,EncryptedSharedPreferences$PrefValueEncryptionScheme prefValueEncryptionScheme",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1171,Security library,EncryptedSharedPreferences,static_method,create,SharedPreferences,"String fileName,String masterKeyAlias,Context context,EncryptedSharedPreferences$PrefKeyEncryptionScheme prefKeyEncryptionScheme,EncryptedSharedPreferences$PrefValueEncryptionScheme prefValueEncryptionScheme",https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences
+1.1181,KeyChain API,KeyChain,constructor,KeyChain,,,https://developer.android.com/reference/android/security/KeyChain
+1.1191,KeyChain API,KeyChain,static_method,choosePrivateKeyAlias,void,"Activity activity,KeyChainAliasCallback response,String[] keyTypes,Principal[] issuers,String host,int port,String alias",https://developer.android.com/reference/android/security/KeyChain
+1.1201,KeyChain API,KeyChain,static_method,choosePrivateKeyAlias,void,"Activity activity,KeyChainAliasCallback response,String[] keyTypes,Principal[] issuers,Uri uri,String alias",https://developer.android.com/reference/android/security/KeyChain
+1.1211,KeyChain API,KeyChain,static_method,createInstallIntent,Intent,,https://developer.android.com/reference/android/security/KeyChain
+1.1221,KeyChain API,KeyChain,static_method,createManageCredentialsIntent,Intent,AppUriAuthenticationPolicy policy,https://developer.android.com/reference/android/security/KeyChain
+1.1231,KeyChain API,KeyChain,static_method,getCertificateChain,X509Certificate[],"Context context,String alias",https://developer.android.com/reference/android/security/KeyChain
+1.1241,KeyChain API,KeyChain,static_method,getCredentialManagementAppPolicy,AppUriAuthenticationPolicy,Context context,https://developer.android.com/reference/android/security/KeyChain
+1.1251,KeyChain API,KeyChain,static_method,getPrivateKey,PrivateKey,"Context context,String alias",https://developer.android.com/reference/android/security/KeyChain
+1.1261,KeyChain API,KeyChain,static_method,isBoundKeyAlgorithm,boolean,String algorithm,https://developer.android.com/reference/android/security/KeyChain
+1.1271,KeyChain API,KeyChain,static_method,isCredentialManagementApp,boolean,Context context,https://developer.android.com/reference/android/security/KeyChain
+1.1281,KeyChain API,KeyChain,static_method,isKeyAlgorithmSupported,boolean,String algorithm,https://developer.android.com/reference/android/security/KeyChain
+1.1291,KeyChain API,KeyChain,static_method,removeCredentialManagementApp,boolean,Context context,https://developer.android.com/reference/android/security/KeyChain
+2.0012,FingerprintService,FingerprintService,0,authenticate,void,"IBinder token,long sessionId,int userId,IFingerprintServiceReceiver receiver,int flags,String opPackageName",
+2.0022,FingerprintService,FingerprintService,0,cancelAuthentication,void,"IBinder token,String opPackageName",
+2.0032,FingerprintService,FingerprintService,0,enroll,void,"IBinder token,byte[] cryptoToken,int groupId,IFingerprintServiceReceiver receiver,int flags,String opPackageName",
+2.0042,FingerprintService,FingerprintService,0,cancelEnrollment,void,IBinder token,
+2.0052,FingerprintService,FingerprintService,0,remove,void,"IBinder token,int fingerId,int groupId,int userId,IFingerprintServiceReceiver receiver",
+2.0062,FingerprintService,FingerprintService,0,rename,void,"int fingerId,int groupId,String name",
+2.0072,FingerprintService,FingerprintService,0,getEnrolledFingerprints,List<Fingerprint>,"int groupId,String opPackageName",
+2.0082,FingerprintService,FingerprintService,0,isHardwareDetected,boolean,"long deviceId,String opPackageName",
+2.0092,FingerprintService,FingerprintService,0,preEnroll,long,IBinder token,
+2.0102,FingerprintService,FingerprintService,0,postEnroll,int,IBinder token,
+2.0112,FingerprintService,FingerprintService,0,hasEnrolledFingerprints,boolean,"int groupId,String opPackageName",
+2.0122,FingerprintService,FingerprintService,0,getAuthenticatorId,long,String opPackageName,
+2.0132,FingerprintService,FingerprintService,0,resetTimeout,void,byte [] cryptoToken,
+2.0142,FingerprintService,FingerprintService,0,addLockoutResetCallback,void,IFingerprintServiceLockoutResetCallback callback,
+2.0152,FingerprintService,FingerprintService,0,setActiveUser,void,int uid,
+2.0162,FingerprintService,FingerprintService,0,enumerate,void,"IBinder token,int userId,IFingerprintServiceReceiver receiver",
+2.0172,FingerprintService,FingerprintService,0,isClientActive,boolean,,
+2.0182,FingerprintService,FingerprintService,0,addClientActiveCallback,void,IFingerprintClientActiveCallback callback,
+2.0192,FingerprintService,FingerprintService,0,removeClientActiveCallback,void,IFingerprintClientActiveCallback callback,
+2.0202,FingerprintService,FingerprintManager,0,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,int flags,AuthenticationCallback callback,Handler handler",
+2.0212,FingerprintService,FingerprintManager,0,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,int flags,AuthenticationCallback callback,Handler handler,int userId",
+2.0222,FingerprintService,FingerprintManager,0,cancelAuthentication,void,CryptoObject cryptoObject,
+2.0232,FingerprintService,FingerprintManager/OnAuthenticationCancelListener,0,onCancel,void,,
+2.0242,FingerprintService,FingerprintManager,0,enroll,void,"byte [] token,CancellationSignal cancel,int flags,int userId,EnrollmentCallback callback",
+2.0252,FingerprintService,FingerprintManager,0,cancelEnrollment,void,,
+2.0262,FingerprintService,FingerprintManager/OnEnrollCancelListener,0,onCancel,void,,
+2.0272,FingerprintService,FingerprintManager,0,remove,void,"Fingerprint fp,int userId,RemovalCallback callback",
+2.0282,FingerprintService,FingerprintManager,0,rename,void,"int fpId,int userId,String newName",
+2.0292,FingerprintService,FingerprintManager,0,getEnrolledFingerprints,List<Fingerprint>,,
+2.0302,FingerprintService,FingerprintManager,0,getEnrolledFingerprints,List<Fingerprint>,int userId,
+2.0312,FingerprintService,FingerprintManager,0,isHardwareDetected,boolean,,
+2.0322,FingerprintService,FingerprintManager,0,preEnroll,long,,
+2.0332,FingerprintService,FingerprintManager,0,postEnroll,int,,
+2.0342,FingerprintService,FingerprintManager,0,hasEnrolledFingerprints,boolean,,
+2.0352,FingerprintService,FingerprintManager,0,hasEnrolledFingerprints,boolean,int userId,
+2.0362,FingerprintService,FingerprintManager,0,getAuthenticatorId,long,,
+2.0372,FingerprintService,FingerprintManager,0,resetTimeout,void,byte[] token,
+2.0382,FingerprintService,FingerprintManager,0,addLockoutResetCallback,void,LockoutResetCallback callback,
+2.0392,FingerprintService,FingerprintManager,0,setActiveUser,void,int userId,
+2.0402,FingerprintService,FingerprintManager,0,enumerate,void,"int userId,EnumerateCallback callback",
+2.0412,FingerprintService,FingerprintGestureDispatcher,3,isFingerprintGestureDetectionAvailable,boolean,,
+2.0422,FingerprintService,FingerprintGestureDispatcher,3,handleMessage,boolean,Message message,
+2.0432,null,FingerprintGestureDispatcher,FingerprintService<9.0,sendMessage,,,
+2.0442,null,FingerprintGestureDispatcher,FingerprintService,post,,,
+2.0452,null,FingerprintGestureDispatcher,FingerprintService<9.0,obtainMessage,,,
+2.0462,null,FingerprintGestureDispatcher,FingerprintService<9.0,sendToTarget,,,
+2.0472,FingerprintService,FingerprintService,1,createTestSession,ITestSession,"int sensorId,ITestSessionCallback callback,String opPackageName",
+2.0482,FingerprintService,FingerprintService,1,dumpSensorServiceStateProto,byte[],"int sensorId,boolean clearSchedulerBuffer",
+2.0492,FingerprintService,FingerprintService,1,getSensorPropertiesInternal,List<FaceSensorPropertiesInternal>,String opPackageName,
+2.0502,FingerprintService,FingerprintService,1,getSensorPropertiesInternal,FaceSensorPropertiesInternal,"int sensorId,String opPackageName",
+2.0512,FingerprintService,FingerprintService,1,authenticate,long,"IBinder token,long operationId,IFaceServiceReceiver receiver,FaceAuthenticateOptions options",
+2.0522,FingerprintService,FingerprintService,1,detectFace,long,"IBinder token,IFaceServiceReceiver receiver,FaceAuthenticateOptions options",
+2.0532,FingerprintService,FingerprintService,1,prepareForAuthentication,void,"boolean requireConfirmation, IBinder token,long operationId,IBiometricSensorReceiver sensorReceiver,FaceAuthenticateOptions options,long requestId,int cookie,boolean allowBackgroundAuthentication",
+2.0542,FingerprintService,FingerprintService,1,startPreparedClient,void,"int sensorId, int cookie",
+2.0552,FingerprintService,FingerprintService,1,cancelAuthentication,void,"IBinder token,String opPackageName,long requestId",
+2.0562,FingerprintService,FingerprintService,1,cancelFaceDetect,void,"IBinder token,String opPackageName,long requestId",
+2.0572,FingerprintService,FingerprintService,1,cancelAuthenticationFromService,void,"int sensorId,IBinder token,String opPackageName,long requestId",
+2.0582,FingerprintService,FingerprintService,1,enroll,long,"int userId,IBinder token,byte[] hardwareAuthToken,IFaceServiceReceiver receiver,String opPackageName,int[] disabledFeatures,Surface previewSurface,boolean debugConsent",
+2.0592,FingerprintService,FingerprintService,1,enrollRemotely,long,"int userId,IBinder token,byte[] hardwareAuthToken,IFaceServiceReceiver receiver,String opPackageName,int[] disabledFeatures",
+2.0602,FingerprintService,FingerprintService,1,cancelEnrollment,void,"IBinder token,long requestId",
+2.0612,FingerprintService,FingerprintService,1,remove,void,"IBinder token,int faceId,int userId,IFaceServiceReceiver receiver,String opPackageName",
+2.0622,FingerprintService,FingerprintService,1,removeAll,void,"IBinder token,int userId,IFaceServiceReceiver receiver,String opPackageName",
+2.0632,FingerprintService,FingerprintService,1,getEnrolledFaces,List<Face>,"int sensorId,int userId,String opPackageName",
+2.0642,FingerprintService,FingerprintService,1,isHardwareDetected,boolean,"int sensorId,String opPackageName",
+2.0652,FingerprintService,FingerprintService,1,generateChallenge,void,"IBinder token,int sensorId,int userId,IFaceServiceReceiver receiver,String opPackageName",
+2.0662,FingerprintService,FingerprintService,1,revokeChallenge,void,"IBinder token,int sensorId,int userId,String opPackageName,long challenge",
+2.0672,FingerprintService,FingerprintService,1,hasEnrolledFaces,boolean,"int sensorId,int userId,String opPackageName",
+2.0682,FingerprintService,FingerprintService,1,getLockoutModeForUser,int,"int sensorId,int userId",
+2.0692,FingerprintService,FingerprintService,1,invalidateAuthenticatorId,void,"int sensorId,int userId,IInvalidationCallback callback",
+2.0702,FingerprintService,FingerprintService,1,getAuthenticatorId,long,"int sensorId,int callingUserId",
+2.0712,FingerprintService,FingerprintService,1,resetLockout,void,"IBinder token,int sensorId,int userId,byte [] hardwareAuthToken,String opPackageName",
+2.0722,FingerprintService,FingerprintService,1,addLockoutResetCallback,void,"IBiometricServiceLockoutResetCallback callback,String opPackageName",
+2.0732,FingerprintService,FingerprintService,1,setFeature,void,"IBinder token,int userId, int feature,boolean enabled,byte[] hardwareAuthToken,IFaceServiceReceiver receiver,String opPackageName",
+2.0742,FingerprintService,FingerprintService,1,getFeature,void,"IBinder token,int userId,int feature,IFaceServiceReceiver receiver,String opPackageName",
+2.0752,FingerprintService,FingerprintService,1,registerAuthenticators,void,List<FaceSensorPropertiesInternal> hidlSensors,
+2.0762,FingerprintService,FingerprintService,1,addAuthenticatorsRegisteredCallback,void,IFaceAuthenticatorsRegisteredCallback callback,
+2.0772,FingerprintService,FingerprintService,1,registerBiometricStateListener,void,IBiometricStateListener listener,
+2.0782,FingerprintService,FingerprintService,1,scheduleWatchdog,void,,
+2.0792,FingerprintService,FingerprintManager,1,createTestSession,BiometricTestSession,int sensorId,
+2.0802,FingerprintService,FingerprintManager,1,getSensorPropertiesInternal,List<FingerprintSensorPropertiesInternal>,,
+2.0812,FingerprintService,FingerprintManager,1,getSensorProperties,List<SensorProperties>,,
+2.0822,FingerprintService,FingerprintManager,1,getFirstFingerprintSensor,FingerprintSensorPropertiesInternal,,
+2.0832,FingerprintService,FingerprintManager,1,generateChallenge,void,"int userId,GenerateChallengeCallback callback",
+2.0842,FingerprintService,FingerprintManager,1,isPowerbuttonFps,boolean,,
+2.0852,FingerprintService,FingerprintManager,1,createEnrollStageThresholds,float[],Context context,
+2.0862,FingerprintService,FingerprintManager,1,getEnrollStageCount,int,,
+2.0872,FingerprintService,FingerprintManager,1,getEnrollStageThreshold,float,int index,
+2.0882,FingerprintService,FingerprintManager,1,revokeChallenge,void,"int userId,long challenge",
+2.0892,FingerprintService,FingerprintManager,1,getSensorProperties,List<SensorProperties>,,
+2.0902,FingerprintService,FingerprintManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,int flags,AuthenticationCallback callback,Handler handler",
+2.0912,FingerprintService,FingerprintManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,int userId",
+2.0922,FingerprintService,FingerprintManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,int sensorId,int userId,int flags",
+2.0932,FingerprintService,FingerprintManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,FingerprintAuthenticateOptions options",
+2.0942,FingerprintService,FingerprintManager,1,detectFingerprint,void,"CancellationSignal cancel,FingerprintDetectionCallback callback,FingerprintAuthenticateOptions options",
+2.0952,FingerprintService,FingerprintManager,1,cancelFingerprintDetect,void,long requestId,
+2.0962,FingerprintService,FingerprintManager,1,detectFingerprint,void,"CancellationSignal cancel,FingerprintDetectionCallback callback,FingerprintAuthenticateOptions options",
+2.0972,FingerprintService,FingerprintManager,1,enroll,void,"byte [] hardwareAuthToken,CancellationSignal cancel,int userId,EnrollmentCallback callback,int enrollReason",
+2.0982,FingerprintService,FingerprintManager,1,cancelEnrollment,void,long requestId,
+2.0992,FingerprintService,FingerprintManager,1,enroll,void,"byte [] hardwareAuthToken,CancellationSignal cancel,int userId,EnrollmentCallback callback,int enrollReason",
+2.1002,FingerprintService,FingerprintManager,1,remove,void,"Fingerprint fp,int userId,RemovalCallback callback",
+2.1012,FingerprintService,FingerprintManager,1,removeAll,void,"int userId,RemovalCallback callback",
+2.1022,FingerprintService,FingerprintManager,1,rename,void,"int fpId,int userId,String newName",
+2.1032,FingerprintService,FingerprintManager,1,getEnrolledFingerprints,List<Fingerprint>,,
+2.1042,FingerprintService,FingerprintManager,1,getEnrolledFingerprints,List<Fingerprint>,int userId,
+2.1052,FingerprintService,FingerprintManager,1,isHardwareDetected,boolean,,
+2.1062,FingerprintService,FingerprintManager,1,generateChallenge,void,"int sensorId,int userId,GenerateChallengeCallback callback",
+2.1072,FingerprintService,FingerprintManager,1,generateChallenge,void,"int userId,GenerateChallengeCallback callback",
+2.1082,FingerprintService,FingerprintManager,1,revokeChallenge,void,"int userId,long challenge",
+2.1092,FingerprintService,FingerprintManager,1,hasEnrolledFingerprints,boolean,int userId,
+2.1102,FingerprintService,FingerprintManager,1,hasEnrolledTemplates,boolean,,
+2.1112,FingerprintService,FingerprintManager,1,hasEnrolledTemplates,boolean,int userId,
+2.1122,FingerprintService,FingerprintManager,1,hasEnrolledFingerprints,boolean,,
+2.1132,FingerprintService,FingerprintManager,1,hasEnrolledFingerprints,boolean,int userId,
+2.1142,FingerprintService,FingerprintManager,1,hasEnrolledTemplates,boolean,,
+2.1152,FingerprintService,FingerprintManager,1,hasEnrolledTemplates,boolean,int userId,
+2.1162,FingerprintService,FingerprintManager,1,hasEnrolledFingerprints,boolean,,
+2.1172,FingerprintService,FingerprintManager,1,getLockoutModeForUser,int,"int sensorId,int userId",
+2.1182,FingerprintService,FingerprintManager,1,resetLockout,void,"int sensorId,int userId,byte[] hardwareAuthToken",
+2.1192,FingerprintService,FingerprintManager,1,addLockoutResetCallback,void,LockoutResetCallback callback,
+2.1202,FingerprintService,FingerprintManager,1,addAuthenticatorsRegisteredCallback,void,IFingerprintAuthenticatorsRegisteredCallback callback,
+2.1212,FingerprintService,FingerprintManager,1,FingerprintManager,,"Context context,IFingerprintService service",
+2.1222,FingerprintService,FingerprintManager,1,onPointerDown,void,"long requestId,int sensorId,int x,int y,float minor,float major",
+2.1232,FingerprintService,FingerprintManager,1,onPointerDown,void,"long requestId,int sensorId,int pointerId,float x,float y,float minor,float major,float orientation,long time,long gestureStart,boolean isAod",
+2.1242,FingerprintService,FingerprintManager,1,onPointerUp,void,"long requestId,int sensorId",
+2.1252,FingerprintService,FingerprintManager,1,onPointerUp,void,"long requestId,int sensorId,int pointerId,float x,float y,float minor,float major,float orientation,long time,long gestureStart,boolean isAod",
+2.1262,FingerprintService,FingerprintManager,1,onUdfpsUiEvent,void,"int event,long requestId,int sensorId",
+2.1272,FingerprintService,FingerprintManager,1,setUdfpsOverlayController,void,IUdfpsOverlayController controller,
+2.1282,FingerprintService,FingerprintManager,1,setSidefpsController,void,ISidefpsController controller,
+2.1292,FingerprintService,FingerprintManager,1,registerBiometricStateListener,void,BiometricStateListener listener,
+2.1302,FingerprintService,FingerprintManager,1,onPowerPressed,void,,
+2.1312,FingerprintService,FingerprintManager,1,scheduleWatchdog,void,,
+2.1322,FingerprintService,FingerprintAuthenticator,1,createTestSession,ITestSession,"ITestSessionCallback callback,String opPackageName",
+2.1332,FingerprintService,FingerprintAuthenticator,1,dumpSensorServiceStateProto,byte[],boolean clearSchedulerBuffer,
+2.1342,FingerprintService,FingerprintAuthenticator,1,getSensorProperties,SensorPropertiesInternal,String opPackageName,
+2.1352,FingerprintService,FingerprintAuthenticator,1,prepareForAuthentication,void,"boolean requireConfirmation,IBinder token,long operationId,int userId,IBiometricSensorReceiver sensorReceiver,String opPackageName,long requestId,int cookie,boolean allowBackgroundAuthentication,boolean isForLegacyFingerprintManager",
+2.1362,FingerprintService,FingerprintAuthenticator,1,startPreparedClient,void,int cookie,
+2.1372,FingerprintService,FingerprintAuthenticator,1,cancelAuthenticationFromService,void,"IBinder token,String opPackageName,long requestId",
+2.1382,FingerprintService,FingerprintAuthenticator,1,cancelAuthentication,void,long requestId,
+2.1392,FingerprintService,FingerprintAuthenticator,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,FingerprintAuthenticateOptions options",
+2.1402,FingerprintService,FingerprintAuthenticator,1,cancelAuthenticationFromService,void,"IBinder token,String opPackageName,long requestId",
+2.1412,FingerprintService,FingerprintAuthenticator,1,isHardwareDetected,boolean,String opPackageName,
+2.1422,FingerprintService,FingerprintAuthenticator,1,hasEnrolledTemplates,boolean,"int userId,String opPackageName",
+2.1432,FingerprintService,FingerprintAuthenticator,1,getLockoutModeForUser,int,int userId,
+2.1442,FingerprintService,FingerprintAuthenticator,1,invalidateAuthenticatorId,void,"int userId,IInvalidationCallback callback",
+2.1452,FingerprintService,FingerprintAuthenticator,1,getAuthenticatorId,long,int callingUserId,
+2.1462,FingerprintService,FingerprintAuthenticator,1,resetLockout,void,"IBinder token,String opPackageName,int userId,byte[] hardwareAuthToken",
+2.1472,FingerprintService,android/server/biometrics/AuthService,1,onStart,void,,
+2.1482,FingerprintService,android/server/biometrics/AuthService,1,registerAuthenticators,void,SensorConfig[] hidlSensors,
+2.1492,FingerprintService,android/server/biometrics/AuthService,1,registerAuthenticationStateListener,void,AuthenticationStateListener listener,
+2.1502,FingerprintService,android/server/biometrics/AuthService,1,unregisterAuthenticationStateListener,void,AuthenticationStateListener listener,
+2.1512,FaceService,FaceAuthenticator,1,createTestSession,ITestSession,"ITestSessionCallback callback,String opPackageName",
+2.1522,FaceService,FaceAuthenticator,1,dumpSensorServiceStateProto,byte[],boolean clearSchedulerBuffer,
+2.1532,FaceService,FaceManager,1,getSensorPropertiesInternal,List<FaceSensorPropertiesInternal>,,
+2.1542,FaceService,FaceManager,1,generateChallenge,void,"int userId,GenerateChallengeCallback callback",
+2.1552,FaceService,FaceManager,1,getEnrolledFaces,List<Face>,int userId,
+2.1562,FaceService,FaceManager,1,hasEnrolledTemplates,boolean,int userId,
+2.1572,FaceService,FaceManager,1,isHardwareDetected,boolean,,
+2.1582,FaceService,FaceManager,1,getSensorProperties,List<FaceSensorProperties>,,
+2.1592,FaceService,FaceAuthenticator,1,getSensorProperties,SensorPropertiesInternal,String opPackageName,
+2.1602,FaceService,FaceManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,FaceAuthenticateOptions options",
+2.1612,FaceService,FaceManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,int userId",
+2.1622,FaceService,FaceManager,1,detectFace,void,"CancellationSignal cancel,FaceDetectionCallback callback,FaceAuthenticateOptions options",
+2.1632,FaceService,FaceAuthenticator,1,prepareForAuthentication,void,"boolean requireConfirmation,IBinder token,long operationId,int userId,IBiometricSensorReceiver sensorReceiver,String opPackageName,long requestId,int cookie,boolean allowBackgroundAuthentication,boolean isForLegacyFingerprintManager",
+2.1642,FaceService,FaceAuthenticator,1,startPreparedClient,void,int cookie,
+2.1652,FaceService,FaceManager,1,cancelAuthentication,void,long requestId,
+2.1662,FaceService,FaceManager,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,AuthenticationCallback callback,Handler handler,FaceAuthenticateOptions options",
+2.1672,FaceService,FaceManager,1,cancelFaceDetect,void,long requestId,
+2.1682,FaceService,FaceManager,1,detectFace,void,"CancellationSignal cancel,FaceDetectionCallback callback,FaceAuthenticateOptions options",
+2.1692,FaceService,FaceAuthenticator,1,cancelAuthenticationFromService,void,"IBinder token,String opPackageName,long requestId",
+2.1702,FaceService,FaceManager,1,enroll,void,"int userId,byte[] hardwareAuthToken,CancellationSignal cancel,EnrollmentCallback callback,int[] disabledFeatures",
+2.1712,FaceService,FaceManager,1,enroll,void,"int userId,byte[] hardwareAuthToken,CancellationSignal cancel,EnrollmentCallback callback,int[] disabledFeatures,Surface previewSurface,boolean debugConsent",
+2.1722,FaceService,FaceManager,1,enrollRemotely,void,"int userId,byte[] hardwareAuthToken,CancellationSignal cancel,EnrollmentCallback callback,int[] disabledFeatures",
+2.1732,FaceService,FaceManager,1,cancelEnrollment,void,long requestId,
+2.1742,FaceService,FaceManager,1,enroll,void,"int userId,byte[] hardwareAuthToken,CancellationSignal cancel,EnrollmentCallback callback,int[] disabledFeatures,Surface previewSurface,boolean debugConsent",
+2.1752,FaceService,FaceManager,1,enrollRemotely,void,"int userId,byte[] hardwareAuthToken,CancellationSignal cancel,EnrollmentCallback callback,int[] disabledFeatures",
+2.1762,FaceService,FaceManager,1,remove,void,"Face face,int userId,RemovalCallback callback",
+2.1772,FaceService,FaceManager,1,removeAll,void,"int userId,RemovalCallback callback",
+2.1782,FaceService,FaceManager,1,getEnrolledFaces,List<Face>,int userId,
+2.1792,FaceService,FaceManager,1,getEnrolledFaces,List<Face>,,
+2.1802,FaceService,FaceManager,1,enroll,void,"int userId,byte[] hardwareAuthToken,CancellationSignal cancel,EnrollmentCallback callback,int[] disabledFeatures,Surface previewSurface,boolean debugConsent",
+2.1812,FaceService,FaceManager,1,isHardwareDetected,boolean,,
+2.1822,FaceService,FaceManager,1,isHardwareDetected,boolean,String opPackageName,
+2.1832,FaceService,FaceManager,1,generateChallenge,void,"int sensorId,int userId,GenerateChallengeCallback callback",
+2.1842,FaceService,FaceManager,1,generateChallenge,void,"int userId,GenerateChallengeCallback callback",
+2.1852,FaceService,FaceManager,1,revokeChallenge,void,"int sensorId,int userId,long challenge",
+2.1862,FaceService,FaceManager,1,hasEnrolledTemplates,boolean,"int userId,String opPackageName",
+2.1872,FaceService,FaceManager,1,hasEnrolledTemplates,boolean,int userId,
+2.1882,FaceService,FaceManager,1,hasEnrolledTemplates,boolean,,
+2.1892,FaceService,FaceManager,1,getLockoutModeForUser,int,"int sensorId,int userId",
+2.1902,FaceService,FaceAuthenticator,1,getLockoutModeForUser,int,int userId,
+2.1912,FaceService,FaceAuthenticator,1,invalidateAuthenticatorId,void,"int userId,IInvalidationCallback callback",
+2.1922,FaceService,FaceAuthenticator,1,getAuthenticatorId,long,int callingUserId,
+2.1932,FaceService,FaceManager,1,resetLockout,void,"int sensorId,int userId,byte[] hardwareAuthToken",
+2.1942,FaceService,FaceAuthenticator,1,resetLockout,void,"IBinder token,String opPackageName,int userId,byte[] hardwareAuthToken",
+2.1952,FaceService,FaceManager,1,addLockoutResetCallback,void,LockoutResetCallback callback,
+2.1962,FaceService,FaceManager,1,setFeature,void,"int userId,int feature,boolean enabled,byte[] hardwareAuthToken,SetFeatureCallback callback",
+2.1972,FaceService,FaceManager,1,getFeature,void,"int userId,int feature,GetFeatureCallback callback",
+2.1982,FaceService,AuthService,1,registerAuthenticators,void,SensorConfig[] hidlSensors,
+2.1992,FaceService,AuthService,1,onStart,void,,
+2.2002,FaceService,FaceManager,1,addAuthenticatorsRegisteredCallback,void,IFaceAuthenticatorsRegisteredCallback callback,
+2.2012,FaceService,FaceManager,1,FaceManager,,"Context context,IFaceService service",
+2.2022,FaceService,FaceManager,1,registerBiometricStateListener,void,BiometricStateListener listener,
+2.2032,FaceService,FaceManager,1,scheduleWatchdog,void,,
+2.2042,FaceService,BiometricManager,1,createTestSession,BiometricTestSession,int sensorId,
+2.2052,FaceService,BiometricManager,1,getSensorProperties,List<SensorProperties>,,
+2.2062,FaceService,BiometricManager,1,canAuthenticate,int,"String opPackageName,int userId,int authenticators",
+2.2072,FaceService,BiometricManager,1,canAuthenticate,int,int authenticators,
+2.2082,FaceService,BiometricManager,1,canAuthenticate,int,,
+2.2092,FaceService,BiometricManager,1,getLastAuthenticationTime,long,int authenticators,
+2.2102,FaceService,BiometricManager,1,hasEnrolledBiometrics,boolean,int userId,
+2.2112,FaceService,BiometricManager,1,registerEnabledOnKeyguardCallback,void,IBiometricEnabledOnKeyguardCallback callback,
+2.2122,FaceService,BiometricManager,1,invalidateAuthenticatorIds,void,"int userId,int fromSensorId,IInvalidationCallback callback",
+2.2132,FaceService,BiometricManager,1,getAuthenticatorIds,long[],,
+2.2142,FaceService,BiometricManager,1,getAuthenticatorIds,long[],int userId,
+2.2152,FaceService,BiometricManager,1,resetLockoutTimeBound,void,"IBinder token,String opPackageName,int fromSensorId,int userId,byte[] hardwareAuthToken",
+2.2162,FaceService,BiometricManager,1,resetLockout,void,"int userId,byte[] hardwareAuthToken",
+2.2172,FaceService,BiometricScheduler,1,startNextOperationIfIdle,void,,
+2.2182,FaceService,BiometricScheduler,1,startPreparedClient,void,int cookie,
+2.2192,FaceService,BiometricScheduler,1,scheduleClientMonitor,void,"BaseClientMonitor clientMonitor,ClientMonitorCallback clientCallback",
+2.2202,FaceService,BiometricScheduler,1,scheduleClientMonitor,void,BaseClientMonitor clientMonitor,
+2.2212,FaceService,BiometricScheduler,1,cancelEnrollment,void,"IBinder token,long requestId",
+2.2222,FaceService,BiometricScheduler,1,cancelAuthenticationOrDetection,void,"IBinder token,long requestId",
+2.2232,FaceService,BiometricScheduler,1,getInternalCallback,ClientMonitorCallback,,
+2.2242,FaceService,BiometricScheduler,1,clearScheduler,void,,
+2.2252,FaceService,BiometricScheduler,1,startWatchdog,void,,
+2.2262,FaceService,BiometricPrompt,1,authenticate,void,"CancellationSignal cancel,Executor executor,AuthenticationCallback callback",
+2.2272,FaceService,BiometricPrompt,1,authenticate,void,"CryptoObject crypto,CancellationSignal cancel,Executor executor,AuthenticationCallback callback",
+2.2282,FaceService,BiometricPrompt,1,authenticateInternal,long,"long operationId,CancellationSignal cancel,Executor executor,AuthenticationCallback callback,int userId",
+2.2292,FaceService,BiometricPrompt,1,authenticateInternal,void,"CryptoObject crypto,CancellationSignal cancel,Executor executor,AuthenticationCallback callback,int userId",
+2.2302,FaceService,BiometricPrompt,1,authenticateUser,void,"CancellationSignal cancel,Executor executor,AuthenticationCallback callback,int userId",
+2.2312,FaceService,BiometricPrompt,1,authenticateForOperation,long,"CancellationSignal cancel,Executor executor,AuthenticationCallback callback,long operationId",
+2.2322,FaceService,BiometricPrompt,1,cancelAuthentication,void,long requestId,
+2.2332,FaceService,BiometricPrompt,1,authenticateInternal,long,"long operationId,CancellationSignal cancel,Executor executor,AuthenticationCallback callback,int userId",
+2.2342,FaceService,android/server/biometrics/AuthService,1,authenticate,long,"IBinder token,long sessionId,int userId,IBiometricServiceReceiver receiver,String opPackageName,PromptInfo promptInfo",
+2.2352,FaceService,android/server/biometrics/AuthService,1,cancelAuthentication,void,"IBinder token,String opPackageName,long requestId",
+2.2362,FaceService,android/server/biometrics/AuthService,1,canAuthenticate,int,"String opPackageName,int userId,int authenticators",
+2.2372,FaceService,android/server/biometrics/AuthService,1,getLastAuthenticationTime,long,"String opPackageName,int userId,int authenticators",
+2.2382,FaceService,android/server/biometrics/AuthService,1,hasEnrolledBiometrics,boolean,"int userId,String opPackageName",
+2.2392,FaceService,android/server/biometrics/AuthService,1,onStart,void,,
+2.2402,FaceService,android/server/biometrics/AuthService,1,registerAuthenticators,void,SensorConfig[] hidlSensors,
+2.2412,FaceService,android/server/biometrics/AuthService,1,registerEnabledOnKeyguardCallback,void,IBiometricEnabledOnKeyguardCallback callback,
+2.2422,FaceService,android/server/biometrics/AuthService,1,invalidateAuthenticatorIds,void,"int userId,int fromSensorId,IInvalidationCallback callback",
+2.2432,FaceService,android/server/biometrics/AuthService,1,getAuthenticatorIds,long[],int userId,
+2.2442,FaceService,android/server/biometrics/AuthService,1,resetLockoutTimeBound,void,"IBinder token,String opPackageName,int fromSensorId,int userId,byte[] hardwareAuthToken",
+2.2452,FaceService,android/server/biometrics/AuthService,1,resetLockout,void,"int userId,byte[] hardwareAuthToken",
+2.2462,FaceService,android/server/biometrics/AuthService,1,getButtonLabel,CharSequence,"int userId,String opPackageName,int authenticators",
+2.2472,FaceService,android/server/biometrics/AuthService,1,getPromptMessage,CharSequence,"int userId,String opPackageName,int authenticators",
+2.2482,FaceService,android/server/biometrics/AuthService,1,getSettingName,CharSequence,"int userId,String opPackageName,int authenticators",
+2.2492,FaceService,android/server/biometrics/Utils,1,getCurrentStrength,int,int sensorId,
+2.2502,FaceService,android/server/biometrics/Utils,1,isStrongBiometric,boolean,int sensorId,
+3.0013,Gatekeeper,LockSettingsService,,setBoolean,void,"boolean value,int userId",
+3.0023,Gatekeeper,LockSettingsService,,setLong,void,"String key,long value,int userId",
+3.0033,Gatekeeper,LockSettingsService,,setString,void,"String key,String value,int userId",
+3.0043,Gatekeeper,LockSettingsService,,getBoolean,boolean,"String key,boolean defaultValue,int userId",
+3.0053,Gatekeeper,LockSettingsService,,getLong,long,"String key,long defValue,int userId",
+3.0063,Gatekeeper,LockSettingsService,,getString,String,"String key,long defaultValue,int userId",
+3.0073,Gatekeeper,LockSettingsService,,setLockCredential,boolean,"LockscreenCredential credential,ICheckCredential savedGredential,int userId",
+3.0083,Gatekeeper,LockSettingsService,,resetKeyStore,void,int userId,
+3.0093,Gatekeeper,LockSettingsService,,checkCredential,VerifyCredentialResponse,"LockscreenCredential credential,int userId,ICheckCredentialProgressCallback progressCallback",
+3.0103,Gatekeeper,LockSettingsService,,verifyCredential,VerifyCredentialResponse,"LockscreenCredential credential,int userId, int flags",
+3.0113,Gatekeeper,LockSettingsService,,verifyTiedProfileChallenge,VerifyCredentialResponse,"LockscreenCredential credential,int userId,int flags",
+3.0123,Gatekeeper,LockSettingsService,,verifyGatekeeperPasswordHandle,VerifyCredentialResponse,"long gatekeeperPasswordHandle,long challenge,int userId",
+3.0133,Gatekeeper,LockSettingsService,,removeGatekeeperPasswordHandle,void,long gatekeeperPasswordHandle,
+3.0143,Gatekeeper,LockSettingsService,,getCredentialType,int,int userId,
+3.0153,Gatekeeper,LockSettingsService,,getPinLength,int,int userId,
+3.0163,Gatekeeper,LockSettingsService,,refreshStoredPinLength,boolean,int userId,
+3.0173,Gatekeeper,LockSettingsService,,getHashFactor,byte[],"LockscreenCredential currentCredential,int userId",
+3.0183,Gatekeeper,LockSettingsService,,setSeparateProfileChallengeEnabled,void,"int userId,boolean enabled,LockscreenCredential managedUserPassword",
+3.0193,Gatekeeper,LockSettingsService,,getSeparateProfileChallengeEnabled,boolean,int userId,
+3.0203,Gatekeeper,LockSettingsService,,registerStrongAuthTracker,void,IStrongAuthTracker tracker,
+3.0213,Gatekeeper,LockSettingsService,,unregisterStrongAuthTracker,void,IStrongAuthTracker tracker,
+3.0223,Gatekeeper,LockSettingsService,,requireStrongAuth,void,"int strongAuthReason,int userId",
+3.0233,Gatekeeper,LockSettingsService,,reportSuccessfulBiometricUnlock,void,"boolean isStrongBiometric,int userId",
+3.0243,Gatekeeper,LockSettingsService,,scheduleNonStrongBiometricIdleTimeout,void,int userId,
+3.0253,Gatekeeper,LockSettingsService,,systemReady,void,,
+3.0263,Gatekeeper,LockSettingsService,,userPresent,void,int userId,
+3.0273,Gatekeeper,LockSettingsService,,getStrongAuthForUser,int,int userId,
+3.0283,Gatekeeper,LockSettingsService,,hasPendingEscrowToken,boolean,int userId,
+3.0293,Gatekeeper,LockSettingsService,,initRecoveryServiceWithSigFile,void,"String rootCertificateAlias,byte[] recoveryServiceCertFile,byte[] recoveryServiceSigFile",
+3.0303,Gatekeeper,LockSettingsService,,getKeyChainSnapshot,KeyChainSnapshot,,
+3.0313,Gatekeeper,LockSettingsService,,generateKey,String,String alias,
+3.0323,Gatekeeper,LockSettingsService,,generateKeyWithMetadata,String,"String alias,byte[] metadata",
+3.0333,Gatekeeper,LockSettingsService,,importKey,String,"String alias,byte[] keyBytes",
+3.0343,Gatekeeper,LockSettingsService,,importKeyWithMetadata,String,"String alias,byte[] keyBytes,byte[] metadata",
+3.0353,Gatekeeper,LockSettingsService,,getKey,String,String alias,
+3.0363,Gatekeeper,LockSettingsService,,removeKey,void,String alias,
+3.0373,Gatekeeper,LockSettingsService,,setSnapshotCreatedPendingIntent,void,PendingIntent intent,
+3.0383,Gatekeeper,LockSettingsService,,setServerParams,void,byte[] serverParams,
+3.0393,Gatekeeper,LockSettingsService,,setRecoveryStatus,void,"String alias,int status",
+3.0403,Gatekeeper,LockSettingsService,,getRecoveryStatus,Map,,
+3.0413,Gatekeeper,LockSettingsService,,setRecoverySecretTypes,void,int[] secretTypes,
+3.0423,Gatekeeper,LockSettingsService,,getRecoverySecretTypes,int[],,
+3.0433,Gatekeeper,LockSettingsService,,startRecoverySessionWithCertPath,byte[],"String sessionId,String rootCertificateAlias, RecoveryCertPath verifierCertPath,byte[] vaultParams,byte[] vaultChallenge,List<KeyChainProtectionParams> secrets",
+3.0443,Gatekeeper,LockSettingsService,,recoverKeyChainSnapshot,"Map<String, String>","String sessionId,byte[] recoveryKeyBlob, List<WrappedApplicationKey> applicationKeys",
+3.0453,Gatekeeper,LockSettingsService,,closeSession,void,String sessionId,
+3.0463,Gatekeeper,LockSettingsService,,startRemoteLockscreenValidation,RemoteLockscreenValidationSession,,
+3.0473,Gatekeeper,LockSettingsService,,validateRemoteLockscreen,RemoteLockscreenValidationResult,byte[] encryptedCredential,
+3.0483,Gatekeeper,LockSettingsService,,hasSecureLockScreen,boolean,,
+3.0493,Gatekeeper,LockSettingsService,,tryUnlockWithCachedUnifiedChallenge,boolean,int userId,
+3.0503,Gatekeeper,LockSettingsService,,removeCachedUnifiedChallenge,void,int userId,
+3.0513,Gatekeeper,LockSettingsService,,registerWeakEscrowTokenRemovedListener,boolean,IWeakEscrowTokenRemovedListener listener,
+3.0523,Gatekeeper,LockSettingsService,,unregisterWeakEscrowTokenRemovedListener,boolean,IWeakEscrowTokenRemovedListener listener,
+3.0533,Gatekeeper,LockSettingsService,,addWeakEscrowToken,long,"byte[] token,int userId,IWeakEscrowTokenActivatedListener callback",
+3.0543,Gatekeeper,LockSettingsService,,removeWeakEscrowToken,boolean,"long handle,int userId",
+3.0553,Gatekeeper,LockSettingsService,,isWeakEscrowTokenActive,boolean,"long handle,int userId",
+3.0563,Gatekeeper,LockSettingsService,,isWeakEscrowTokenValid,boolean,"long handle,byte[] token,int userId",
+3.0573,Gatekeeper,LockSettingsService,,unlockUserKeyIfUnsecured,void,int userId,
+3.0583,Gatekeeper,LockPatternUtils,,setTrustUsuallyManaged,void,"boolean managed,int userId",
+3.0593,Gatekeeper,LockPatternUtils,,setLockScreenDisabled,void,"boolean disable,int userId",
+3.0603,Gatekeeper,LockPatternUtils,,setAutoPinConfirm,void,"boolean enabled,int userId",
+3.0613,Gatekeeper,LockPatternUtils,,setOwnerInfoEnabled,void,"boolean enabled,int userId",
+3.0623,Gatekeeper,LockPatternUtils,,setVisiblePatternEnabled,void,"boolean enabled,int userId",
+3.0633,Gatekeeper,LockPatternUtils,,setPinEnhancedPrivacyEnabled,void,"boolean enabled,int userId",
+3.0643,Gatekeeper,LockPatternUtils,,setBoolean,void,"String secureSettingKey,boolean enabled,int userId",
+3.0653,Gatekeeper,LockPatternUtils,,setPowerButtonInstantlyLocks,void,"boolean enabled,int userId",
+3.0663,Gatekeeper,LockPatternUtils,,checkPasswordHistory,boolean,"byte[] passwordToCheck,byte[] hashFactor,int userId",
+3.0673,Gatekeeper,LockPatternUtils,,setLong,void,"String secureSettingKey,long value,int userHandle",
+3.0683,Gatekeeper,LockPatternUtils,,setOwnerInfo,void,"String info,int userId",
+3.0693,Gatekeeper,LockPatternUtils,,setEnabledTrustAgents,void,"Collection<ComponentName> activeTrustAgents,int userId",
+3.0703,Gatekeeper,LockPatternUtils,,setKnownTrustAgents,void,"Collection<ComponentName> knownTrustAgents,int userId",
+3.0713,Gatekeeper,LockPatternUtils,,setDeviceOwnerInfo,void,String info,
+3.0723,Gatekeeper,LockPatternUtils,,setString,void,"String secureSettingKey,String value,int userHandle",
+3.0733,Gatekeeper,LockPatternUtils,,isTrustUsuallyManaged,boolean,int userId,
+3.0743,Gatekeeper,LockPatternUtils,,getBoolean,boolean,"String secureSettingKey,boolean defaultValue,int userId",
+3.0753,Gatekeeper,LockPatternUtils,,checkPasswordHistory,boolean,"byte[] passwordToCheck,byte[] hashFactor,int userId",
+3.0763,Gatekeeper,LockPatternUtils,,getLong,long,"String secureSettingKey,long defaultValue,int userHandle",
+3.0773,Gatekeeper,LockPatternUtils,,getOwnerInfo,String,int userId,
+3.0783,Gatekeeper,LockPatternUtils,,checkPasswordHistory,boolean,"byte[] passwordToCheck,byte[] hashFactor,int userId",
+3.0793,Gatekeeper,LockPatternUtils,,getString,String,"String secureSettingKey,int userHandle",
+3.0803,Gatekeeper,LockPatternUtils,,setLockCredential,boolean,"LockscreenCredential newCredential,LockscreenCredential savedCredential,int userHandle",
+3.0813,Gatekeeper,LockPatternUtils,,resetKeyStore,void,int userId,
+3.0823,Gatekeeper,LockPatternUtils,,checkCredential,boolean,"LockscreenCredential credential,int userId,CheckCredentialProgressCallback progressCallback",
+3.0833,Gatekeeper,LockPatternUtils,,verifyCredential,VerifyCredentialResponse,"LockscreenCredential credential,int userId,int flags",
+3.0843,Gatekeeper,LockPatternUtils,,verifyTiedProfileChallenge,VerifyCredentialResponse,"LockscreenCredential credential,int userId,int flags",
+3.0853,Gatekeeper,LockPatternUtils,,verifyGatekeeperPasswordHandle,VerifyCredentialResponse,"long gatekeeperPasswordHandle,long challenge,int userId",
+3.0863,Gatekeeper,LockPatternUtils,,removeGatekeeperPasswordHandle,void,long gatekeeperPasswordHandle,
+3.0873,Gatekeeper,LockPatternUtils,,getCredentialTypeForUser,int,int userHandle,
+3.0883,Gatekeeper,LockPatternUtils,,getKeyguardStoredPasswordQuality,int,int userHandle,
+3.0893,Gatekeeper,LockPatternUtils,,getActivePasswordQuality,int,int userId,
+3.0903,Gatekeeper,LockPatternUtils,,isSecure,boolean,int userId,
+3.0913,Gatekeeper,LockPatternUtils,,isLockScreenDisabled,boolean,int userId,
+3.0923,Gatekeeper,LockPatternUtils,,isLockPasswordEnabled,boolean,int userId,
+3.0933,Gatekeeper,LockPatternUtils,,isLockPatternEnabled,boolean,int userId,
+3.0943,Gatekeeper,LockPatternUtils,,getPinLength,int,int userId,
+3.0953,Gatekeeper,LockPatternUtils,,refreshStoredPinLength,boolean,int userId,
+3.0963,Gatekeeper,LockPatternUtils,,getPasswordHistoryHashFactor,byte[],"LockscreenCredential currentPassword,int userId",
+3.0973,Gatekeeper,LockPatternUtils,,setSeparateProfileChallengeEnabled,void,"int userHandle,boolean enabled,LockscreenCredential profilePassword",
+3.0983,Gatekeeper,LockPatternUtils,,hasSeparateChallenge,boolean,int userHandle,
+3.0993,Gatekeeper,LockPatternUtils,,isSeparateProfileChallengeEnabled,boolean,int userHandle,
+3.1003,Gatekeeper,LockPatternUtils,,isProfileWithUnifiedChallenge,boolean,int userHandle,
+3.1013,Gatekeeper,LockPatternUtils,,isManagedProfileWithUnifiedChallenge,boolean,int userHandle,
+3.1023,Gatekeeper,LockPatternUtils,,registerStrongAuthTracker,void,StrongAuthTracker strongAuthTracker,
+3.1033,Gatekeeper,LockPatternUtils,,unregisterStrongAuthTracker,void,StrongAuthTracker strongAuthTracker,
+3.1043,Gatekeeper,LockPatternUtils,,requireCredentialEntry,void,int userId,
+3.1053,Gatekeeper,LockPatternUtils,,requireStrongAuth,void,"int strongAuthReason,int userId",
+3.1063,Gatekeeper,LockPatternUtils,,reportSuccessfulBiometricUnlock,void,"boolean isStrongBiometric,int userId",
+3.1073,Gatekeeper,LockPatternUtils,,scheduleNonStrongBiometricIdleTimeout,void,int userId,
+3.1083,Gatekeeper,LockPatternUtils,,userPresent,void,int userId,
+3.1093,Gatekeeper,LockPatternUtils,,getStrongAuthForUser,int,int userId,
+3.1103,Gatekeeper,LockPatternUtils,,isTrustAllowedForUser,boolean,int userId,
+3.1113,Gatekeeper,LockPatternUtils,,isBiometricAllowedForUser,boolean,int userId,
+3.1123,Gatekeeper,LockPatternUtils,,isUserInLockdown,boolean,int userId,
+3.1133,Gatekeeper,LockPatternUtils,,hasPendingEscrowToken,boolean,int userId,
+3.1143,Gatekeeper,LockPatternUtils,,startRemoteLockscreenValidation,RemoteLockscreenValidationSession,,
+3.1153,Gatekeeper,LockPatternUtils,,validateRemoteLockscreen,RemoteLockscreenValidationResult,byte[] encryptedCredential,
+3.1163,Gatekeeper,LockPatternUtils,,setLockCredential,boolean,"LockscreenCredential newCredential,LockscreenCredential savedCredential,int userHandle",
+3.1173,Gatekeeper,LockPatternUtils,,setLockCredentialWithToken,boolean,"LockscreenCredential credential,long tokenHandle,byte[] token,int userHandle",
+3.1183,Gatekeeper,LockPatternUtils,,hasSecureLockScreen,boolean,,
+3.1193,Gatekeeper,LockPatternUtils,,tryUnlockWithCachedUnifiedChallenge,boolean,int userId,
+3.1203,Gatekeeper,LockPatternUtils,,removeCachedUnifiedChallenge,void,int userId,
+3.1213,Gatekeeper,LockPatternUtils,,registerWeakEscrowTokenRemovedListener,boolean,IWeakEscrowTokenRemovedListener listener,
+3.1223,Gatekeeper,LockPatternUtils,,unregisterWeakEscrowTokenRemovedListener,boolean,IWeakEscrowTokenRemovedListener listener,
+3.1233,Gatekeeper,LockPatternUtils,,addWeakEscrowToken,long,"byte[] token,int userId,IWeakEscrowTokenActivatedListener callback",
+3.1243,Gatekeeper,LockPatternUtils,,removeWeakEscrowToken,boolean,"long handle,int userId",
+3.1253,Gatekeeper,LockPatternUtils,,isWeakEscrowTokenActive,boolean,"long handle,int userId",
+3.1263,Gatekeeper,LockPatternUtils,,isWeakEscrowTokenValid,boolean,"long handle,byte[] token,int userId",
+3.1273,Gatekeeper,LockPatternUtils,,unlockUserKeyIfUnsecured,void,int userId,
+3.1283,Gatekeeper,LockPatternChecker,,checkCredential,"static AsyncTask<?, ?, ?>","LockPatternUtils utils,LockscreenCredential credential,int userId,OnCheckCallback callback",
+3.1293,Gatekeeper,LockPatternChecker,,verifyCredential,"AsyncTask<?, ?, ?>","LockPatternUtils utils,LockscreenCredential credential,int userId,int flags,OnVerifyCallback callback",
+3.1303,Gatekeeper,LockPatternChecker,,verifyTiedProfileChallenge,"AsyncTask<?, ?, ?>","LockPatternUtils utils,LockscreenCredential credential,int userId,int flags,OnVerifyCallback callback",
+3.1313,Gatekeeper,LockPatternUtils$StrongAuthTracker,,getStrongAuthForUser,int,int userId,
+3.1323,Gatekeeper,LockPatternUtils$StrongAuthTracker,,isTrustAllowedForUser,boolean,int userId,
+3.1333,Gatekeeper,LockPatternUtils$StrongAuthTracker,,isBiometricAllowedForUser,boolean,"boolean isStrongBiometric,int userId",
+3.1343,Gatekeeper,LockPatternUtils$StrongAuthTracker,,handleStrongAuthRequiredChanged,void,"int strongAuthFlags,int userId",
+3.1353,Gatekeeper,RecoveryController,,initRecoveryService,void,"String rootCertificateAlias,byte[] certificateFile,byte[] signatureFile",
+3.1363,Gatekeeper,RecoveryController,,getKeyChainSnapshot,KeyChainSnapshot,,
+3.1373,Gatekeeper,RecoveryController,,generateKey,Key,String alias,
+3.1383,Gatekeeper,RecoveryController,,generateKey,Key,"String alias,byte[] metadata",
+3.1393,Gatekeeper,RecoveryController,,importKey,Key,"String alias,byte[] keyBytes",
+3.1403,Gatekeeper,RecoveryController,,importKey,Key,"String alias,byte[] keyBytes,byte[] metadata",
+3.1413,Gatekeeper,RecoveryController,,getKey,Key,String alias,
+3.1423,Gatekeeper,RecoveryController,,removeKey,void,String alias,
+3.1433,Gatekeeper,RecoveryController,,setSnapshotCreatedPendingIntent,void,PendingIntent intent,
+3.1443,Gatekeeper,RecoveryController,,setServerParams,void,byte[] serverParams,
+3.1453,Gatekeeper,RecoveryController,,setRecoveryStatus,void,"String alias,int status",
+3.1463,Gatekeeper,RecoveryController,,getAliases,List<String>,,
+3.1473,Gatekeeper,RecoveryController,,getRecoveryStatus,int,String alias,
+3.1483,Gatekeeper,RecoveryController,,setRecoverySecretTypes,void,int[] secretTypes,
+3.1493,Gatekeeper,RecoveryController,,getRecoverySecretTypes,int[],,
+3.1503,Gatekeeper,RecoverySession,,start,byte[],"String rootCertificateAlias,CertPath verifierCertPath,byte[] vaultParams,byte[] vaultChallenge,List<KeyChainProtectionParams> secrets",
+3.1513,Gatekeeper,RecoverySession,,recoverKeyChainSnapshot,"Map<String, Key>","byte[] recoveryKeyBlob,List<WrappedApplicationKey> applicationKeys",
+3.1523,Gatekeeper,RecoverySession,,close,void,,
+4.0014,MediaDRM,MediaDRM,,clearOnEventListener,void,,
+4.0024,MediaDRM,MediaDRM,,clearOnExpirationUpdateListener,void,,
+4.0034,MediaDRM,MediaDRM,,clearOnKeyStatusChangeListener,void,,
+4.0044,MediaDRM,MediaDRM,,clearOnSessionLostStateListener,void,,
+4.0054,MediaDRM,MediaDRM,,close,void,,
+4.0064,MediaDRM,MediaDRM,,closeSession,void,byte[] sessionId,
+4.0074,MediaDRM,MediaDRM,,getConnectedHdcpLevel,int,,
+4.0084,MediaDRM,MediaDRM,,getCryptoSession,MediaDrm.CryptoSession,"byte[] sessionId,String cipherAlgorithm,String macAlgorithm",
+4.0094,MediaDRM,MediaDRM,,getKeyRequest,MediaDrm.KeyRequest,"byte[] scope,byte[] init,String mimeType,int keyType,HashMap<String, String> optionalParameters",
+4.0104,MediaDRM,MediaDRM,,getLogMessages,List<MediaDrm.LogMessage>,,
+4.0114,MediaDRM,MediaDRM,,getMaxHdcpLevel,int,,
+4.0124,MediaDRM,MediaDRM,,getMaxSecurityLevel,int,,
+4.0134,MediaDRM,MediaDRM,,getMaxSessionCount,int,,
+4.0144,MediaDRM,MediaDRM,,getMetrics,PersistableBundle,,
+4.0154,MediaDRM,MediaDRM,,getOfflineLicenseKeySetIds,List<byte[]>,,
+4.0164,MediaDRM,MediaDRM,,getOfflineLicenseState,int,byte[] keySetId,
+4.0174,MediaDRM,MediaDRM,,getOpenSessionCount,int,,
+4.0184,MediaDRM,MediaDRM,,getPlaybackComponent,MediaDrm.PlaybackComponent,byte[] sessionId,
+4.0194,MediaDRM,MediaDRM,,getPropertyByteArray,byte[],String propertyName,
+4.0204,MediaDRM,MediaDRM,,getPropertyString,String,String?propertyName,
+4.0214,MediaDRM,MediaDRM,,getProvisionRequest,MediaDrm.ProvisionRequest,,
+4.0224,MediaDRM,MediaDRM,,getSecureStop,byte[],byte[] ssid,
+4.0234,MediaDRM,MediaDRM,,getSecureStopIds,List<byte[]>,,
+4.0244,MediaDRM,MediaDRM,,getSecureStops,List<byte[]>,,
+4.0254,MediaDRM,MediaDRM,,getSecurityLevel,int,byte[] sessionId,
+4.0264,MediaDRM,MediaDRM,,getSupportedCryptoSchemes,List<UUID>,,
+4.0274,MediaDRM,MediaDRM,,isCryptoSchemeSupported,boolean,"UUID uuid,String mimeType",
+4.0284,MediaDRM,MediaDRM,,isCryptoSchemeSupported,boolean,"UUID?uuid,String?mimeType,?int securityLevel",
+4.0294,MediaDRM,MediaDRM,,isCryptoSchemeSupported,boolean,UUID uuid,
+4.0304,MediaDRM,MediaDRM,,openSession,byte[],,
+4.0314,MediaDRM,MediaDRM,,openSession,byte[],,
+4.0324,MediaDRM,MediaDRM,,provideKeyResponse,byte[],"byte[] scope,byte[] response",
+4.0334,MediaDRM,MediaDRM,,provideProvisionResponse,void,byte[] response,
+4.0344,MediaDRM,MediaDRM,,queryKeyStatus,"HashMap<String, String>",byte[] sessionId,
+4.0354,MediaDRM,MediaDRM,,release,void,,
+4.0364,MediaDRM,MediaDRM,,releaseAllSecureStops,void,,
+4.0374,MediaDRM,MediaDRM,,releaseSecureStops,void,byte[] ssRelease,
+4.0384,MediaDRM,MediaDRM,,removeAllSecureStops,void,,
+4.0394,MediaDRM,MediaDRM,,removeKeys,void,byte[] sessionId,
+4.0404,MediaDRM,MediaDRM,,removeOfflineLicense,void,byte[] keySetId,
+4.0414,MediaDRM,MediaDRM,,removeSecureStop,void,byte[] ssid,
+4.0424,MediaDRM,MediaDRM,,requiresSecureDecoder,boolean,String mime,
+4.0434,MediaDRM,MediaDRM,,requiresSecureDecoder,boolean,"String mime,int level",
+4.0444,MediaDRM,MediaDRM,,restoreKeys,void,"byte[] sessionId,byte[] keySetId",
+4.0454,MediaDRM,MediaDRM,,setOnEventListener,void,"Executor executor,MediaDrm.OnEventListener listener",
+4.0464,MediaDRM,MediaDRM,,setOnEventListener,void,"MediaDrm.OnEventListener listener,Handler handler",
+4.0474,MediaDRM,MediaDRM,,setOnEventListener,void,MediaDrm.OnEventListener listener,
+4.0484,MediaDRM,MediaDRM,,setOnExpirationUpdateListener,void,"MediaDrm.OnExpirationUpdateListener listener,Handler handler",
+4.0494,MediaDRM,MediaDRM,,setOnExpirationUpdateListener,void,"Executor executor,MediaDrm.OnExpirationUpdateListener listener",
+4.0504,MediaDRM,MediaDRM,,setOnKeyStatusChangeListener,void,"Executor executor,MediaDrm.OnKeyStatusChangeListener listener",
+4.0514,MediaDRM,MediaDRM,,setOnKeyStatusChangeListener,void,"MediaDrm.OnKeyStatusChangeListener listener,Handler handler",
+4.0524,MediaDRM,MediaDRM,,setOnSessionLostStateListener,void,"Executor executor,MediaDrm.OnSessionLostStateListener listener",
+4.0534,MediaDRM,MediaDRM,,setOnSessionLostStateListener,void,"MediaDrm.OnSessionLostStateListener listener,Handler handler",
+4.0544,MediaDRM,MediaDRM,,setPropertyByteArray,void,"String propertyName,byte[] value",
+4.0554,MediaDRM,MediaDRM,,setPropertyString,void,"String propertyName,String value",
+4.0564,DrmManagerClient,DrmManagerClient,,acquireDrmInfo,DrmInfo,DrmInfoRequest drmInfoRequest,
+4.0574,DrmManagerClient,DrmManagerClient,,acquireRights,int,DrmInfoRequest drmInfoRequest,
+4.0584,DrmManagerClient,DrmManagerClient,,canHandle,boolean,"String path,String mimeType",
+4.0594,DrmManagerClient,DrmManagerClient,,canHandle,boolean,"Uri uri,String mimeType",
+4.0604,DrmManagerClient,DrmManagerClient,,checkRightsStatus,int,String path,
+4.0614,DrmManagerClient,DrmManagerClient,,checkRightsStatus,int,Uri uri,
+4.0624,DrmManagerClient,DrmManagerClient,,checkRightsStatus,int,"String path,int action",
+4.0634,DrmManagerClient,DrmManagerClient,,checkRightsStatus,int,"Uri uri,int action",
+4.0644,DrmManagerClient,DrmManagerClient,,close,void,,
+4.0654,DrmManagerClient,DrmManagerClient,,closeConvertSession,DrmConvertedStatus,int convertId,
+4.0664,DrmManagerClient,DrmManagerClient,,convertData,DrmConvertedStatus,"int convertId,byte[] inputData",
+4.0674,DrmManagerClient,DrmManagerClient,,getAvailableDrmEngines,String[],,
+4.0684,DrmManagerClient,DrmManagerClient,,getAvailableDrmSupportInfo,Collection<DrmSupportInfo>,,
+4.0694,DrmManagerClient,DrmManagerClient,,getConstraints,ContentValues,"String path,int action",
+4.0704,DrmManagerClient,DrmManagerClient,,getConstraints,ContentValues,"Uri uri,int action",
+4.0714,DrmManagerClient,DrmManagerClient,,getDrmObjectType,int,"Uri uri,String mimeType",
+4.0724,DrmManagerClient,DrmManagerClient,,getDrmObjectType,int,"String path,String mimeType",
+4.0734,DrmManagerClient,DrmManagerClient,,getMetadata,ContentValues,String path,
+4.0744,DrmManagerClient,DrmManagerClient,,getMetadata,ContentValues,Uri uri,
+4.0754,DrmManagerClient,DrmManagerClient,,getOriginalMimeType,String,Uri uri,
+4.0764,DrmManagerClient,DrmManagerClient,,getOriginalMimeType,String,String path,
+4.0774,DrmManagerClient,DrmManagerClient,,openConvertSession,int,String mimeType,
+4.0784,DrmManagerClient,DrmManagerClient,,processDrmInfo,int,DrmInfo drmInfo,
+4.0794,DrmManagerClient,DrmManagerClient,,release,void,,
+4.0804,DrmManagerClient,DrmManagerClient,,removeAllRights,int,,
+4.0814,DrmManagerClient,DrmManagerClient,,removeRights,int,String path,
+4.0824,DrmManagerClient,DrmManagerClient,,removeRights,int,Uri uri,
+4.0834,DrmManagerClient,DrmManagerClient,,saveRights,int,"DrmRights drmRights,String rightsPath,String contentPath",
+4.0844,DrmManagerClient,DrmManagerClient,,setOnErrorListener,void,DrmManagerClient.OnErrorListener errorListener,
+4.0854,DrmManagerClient,DrmManagerClient,,setOnEventListener,void,DrmManagerClient.OnEventListener eventListener,
+4.0864,DrmManagerClient,DrmManagerClient,,setOnInfoListener,void,DrmManagerClient.OnInfoListener infoListener,

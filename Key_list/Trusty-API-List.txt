@@ -1,0 +1,23 @@
+trusty
+IPC_PORT_ALLOW_NS_CONNECT
+Trusty IPC Client API
+tipc_connect
+tipc_connect
+TIPC_IOC_CONNECT ioctl
+tipc_close
+tipc_connect
+IPC_HANDLE_POLL_MSG
+struct tipc_chan
+tipc_chan_put_rxbuf
+tipc_chan_get_rxbuf
+tipc_chan_put_txbuf
+tipc_chan_queue_msg
+tipc_chan_get_txbuf_timeout
+tipc_chan_destroy
+tipc_chan_shutdown
+tipc_chan_connect
+tipc_create_channel
+handle_event
+handle_msg
+Handle API
+IPC_HANDLE_POLL_MSG
